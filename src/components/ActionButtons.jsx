@@ -1,5 +1,6 @@
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import {COLORS} from '../constants/colors';
+import { Color } from 'react-native/types_generated/Libraries/Animated/AnimatedExports';
 
 
 export function ActionButtons ({onAdd, onReset}) {
@@ -43,6 +44,31 @@ const styles = StyleSheet.create({
         marginBottom: 12,
     },
     buttonRow: {
-        j
-    }
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        gap: 8,
+        marginBottom: 16,
+    }, 
+    button: {
+        flex: 1,
+        backgroundColor: COLORS.primary,
+        paddingVertical: 12, 
+        borderRadius: 10,
+        alignItems: 'center',
+    },
+    buttonText: {
+        color: COLORS.white,
+        fontWeight: 'bold', 
+        fontSize: 14,
+    },
+    resetButton: {
+        backgroundColor: 'transparent',
+        borderWidth: 1,
+        borderColor: COLORS.danger, 
+        paddingVertical: 10, 
+        borderRadius: 10,
+        alignItems: 'center',
+    },
+    res
+
 })
