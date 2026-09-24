@@ -1,10 +1,10 @@
 export const COLORS = {
-        background: '#F0F9FF',
-        cardBg: '#FFFFFF', 
-        primary: '#0284c7', 
-        secondary: '#38BDF8', 
-        textMain:  '#0c4a6e', 
-        textMuted: '#64748b',
-        danger: '#ef4444', 
+        background: '#ff6347',
+        cardBg: '#FFA500', 
+        primary: '#0000cd', 
+        secondary: '#ffaeb9', 
+        textMain:  '#008800', 
+        textMuted: '#8B8B00',
+        danger: '#763b8f', 
         white : '#ffffff', 
 };
