@@ -1,6 +1,6 @@
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import {COLORS} from '../constants/colors';
-import { Color } from 'react-native/types_generated/Libraries/Animated/AnimatedExports';
+
 
 
 export function ActionButtons ({onAdd, onReset}) {
@@ -27,7 +27,7 @@ export function ActionButtons ({onAdd, onReset}) {
 
              {/* Botão para reiniciar a contagem*/}
             <Pressable style = {styles.resetButton}  onPress = {onReset}>
-                <Text style= {style.resetButtonText}>🔄 Reiniciat Dia</Text>
+                <Text style= {styles.resetButtonText}>🔄 Reiniciat Dia</Text>
             </Pressable>
         </View>
       );

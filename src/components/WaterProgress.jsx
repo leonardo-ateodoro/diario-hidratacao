@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet } from 'react-native';
-import { COLORS } from '../constants/colors';
+import {COLORS} from '../constants/colors';
 
 export function WaterProgress({ consumed, goal }) {
   // Cálculo dinâmico da porcentagem atingida para a barra visual
