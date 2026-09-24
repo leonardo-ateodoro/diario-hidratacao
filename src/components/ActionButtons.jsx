@@ -68,7 +68,13 @@ const styles = StyleSheet.create({
         paddingVertical: 10, 
         borderRadius: 10,
         alignItems: 'center',
-    },
-    res
 
-})
+
+    },
+    resetButtonText: {
+        color: COLORS.danger,
+        fontWeight: '600',
+        fontSize: 13,
+    },
+
+});
