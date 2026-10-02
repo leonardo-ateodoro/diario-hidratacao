@@ -56,5 +56,20 @@ const styles = StyleSheet.create({
   },
   
 
-  success
+  successMessage: {
+     fontSize: 13, 
+     fontWeight: 'bold',
+     color: '#10b981', 
+     textAlign: 'center', 
+     marginTop: 4,
+
+
+  }, 
+  encouragementMessage: {
+    fontSize: 13,
+    color: COLORS.textMuted,
+    textAlign: 'center',
+    marginTop: 4, 
+
+  },
 });
